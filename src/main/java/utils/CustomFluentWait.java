@@ -64,11 +64,7 @@ public class CustomFluentWait {
 	private void waitForAccountIcon() {
 		String url = driver.getCurrentUrl();
 		String accountIconXpath = "Wrong url!";
-		if (url.contains("reserved")) {
-			accountIconXpath = "//div[@data-testid='account-info-logged-false' or @data-testid='account-info-logged-true']";
-		} else if (url.contains("mohito")) {
-			accountIconXpath = "//div[@data-testid='account-info-logged-false' or @data-testid='account-info-logged-true']";
-		}
+		accountIconXpath = "//div[@data-testid='account-info-logged-false' or @data-testid='account-info-logged-true']";
 
 		if (!accountIconXpath.equals("Wrong url!")) {
 			waitForElementBeingClickable(By.xpath(accountIconXpath));
