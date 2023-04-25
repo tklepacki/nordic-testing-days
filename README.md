@@ -20,7 +20,7 @@ I expect you to have:
 
 - Basic understanding of Unix system;
 
-- Familiarity with basic Git concepts is preferred;
+- Familiarity with basic GIT concepts is preferred;
 
 - Basic understanding of Selenium WebDriver library is desirable.
 
@@ -90,7 +90,7 @@ Please bring your own computer Windows operating system. Unix machines are also 
 ### Maven
 
 - Enter the repository.
-- Run the command 'mvnw -v'. Make sure that information about the installed version of Maven has been provided.
+- Run the command `mvnw -v`. Make sure that information about the installed version of Maven has been provided.
 
 ## In case of any problems
 Write to my email address: *t.klepacki@wp.pl*
