@@ -33,7 +33,6 @@ public class LoginTest {
 		commonTestSteps.loadMainPage(URL);
 		driver.findElement(By.id("cookiebotDialogOkButton")).click();
 		commonTestSteps.loginProcess(email, password);
-		//manager.getNewsletterPopUpPage().closeNewsletterPopUp();
 
 		assertEquals(firstName, manager.getUserMenuPage().getAccountNameText());
 	}
