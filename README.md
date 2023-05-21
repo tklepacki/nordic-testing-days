@@ -83,15 +83,15 @@ Please bring your own computer Windows operating system. Unix machines are also 
   - `sudo groupadd docker`
   - `sudo usermod -aG docker $USER`
   - Restart your machine
-- Please pull the following Docker's images:  
-`docker pull jenkins/jenkins:lts`  
-`docker pull selenium/hub`
-`docker pull selenium/node-chrome`
-`docker pull selenium/node-firefox`
-`docker pull selenoid/firefox:113.0`
-`docker pull selenoid/chrome:113.0`
-`docker pull aerokube/selenoid-ui`
-`docker pull aerokube/selenoid` 
+- Please pull the following Docker's images by executing the following commands:  
+  - `docker pull jenkins/jenkins:lts`  
+  - `docker pull selenium/hub`
+  - `docker pull selenium/node-chrome`
+  - `docker pull selenium/node-firefox`
+  - `docker pull selenoid/firefox:113.0`
+  - `docker pull selenoid/chrome:113.0`
+  - `docker pull aerokube/selenoid-ui`
+  - `docker pull aerokube/selenoid` 
 
 ### Docker Compose
 
