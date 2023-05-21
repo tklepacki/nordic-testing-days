@@ -49,6 +49,8 @@ Please bring your own computer Windows operating system. Unix machines are also 
 
 - Selenoid Installation Binary - https://github.com/aerokube/cm/releases 
   On Linux and Mac machines, add execution access to the downloaded binary: `chmod +x cm_linux_amd64` or `chmod +x ./cm_darwin_amd64`
+  
+- VNC Viewer https://www.realvnc.com/en/connect/download/viewer/
 
 - Latest versions of Chrome and FireFox browsers.
 
@@ -80,7 +82,16 @@ Please bring your own computer Windows operating system. Unix machines are also 
 - For Linux systems only - execute the following command:
   - `sudo groupadd docker`
   - `sudo usermod -aG docker $USER`
-- Restart your machine
+  - Restart your machine
+- Please pull the following Docker's images:  
+`docker pull jenkins/jenkins:lts      
+`docker pull selenium/hub
+`docker pull selenium/node-chrome
+`docker pull selenium/node-firefox
+`docker pull selenoid/firefox:113.0
+`docker pull selenoid/chrome:113.0
+`docker pull aerokube/selenoid-ui
+`docker pull aerokube/selenoid 
 
 ### Docker Compose
 
