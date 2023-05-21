@@ -14,15 +14,15 @@ In order to verify the environment we will be working on during the workshop, I 
 
 ### Knowledge
 
-I expect you to have:
+It would be great if you have:
 
 - Basic knowledge of Java language and Maven projects;
 
 - Basic understanding of Unix system;
 
-- Familiarity with basic GIT concepts is preferred;
+- Familiarity with basic GIT concepts;
 
-- Basic understanding of Selenium WebDriver library is desirable.
+- Basic understanding of Selenium WebDriver library.
 
 Unfortunately, due to the limited time of the workshop, there will be no time for a complete explanation of these concepts from scratch.
 
@@ -30,9 +30,9 @@ Unfortunately, due to the limited time of the workshop, there will be no time fo
 
 Please bring your own computer Windows operating system. Unix machines are also fine, but not preferred. Please install:
 
-- Selected IDE - preferably IntelliJ IDEA https://www.jetbrains.com/idea/ or Eclipse: https://www.eclipse.org/downloads/ If you choose Eclipse, please also install TestNG for Eclipse: https://marketplace.eclipse.org/content/testng-eclipse
+- IDE - preferably IntelliJ IDEA https://www.jetbrains.com/idea/ or Eclipse: https://www.eclipse.org/downloads/ If you choose Eclipse, please also install TestNG for Eclipse: https://marketplace.eclipse.org/content/testng-eclipse
 
-- Java JDK - latest version -  http://www.oracle.com/technetwork/java/javase/downloads/
+- Java JDK - latest version (JAVA 20) - http://www.oracle.com/technetwork/java/javase/downloads/
 
 - GIT 
   - Windows: https://git-scm.com/download/win 
