@@ -5,10 +5,13 @@ I am glad that you have chosen my workshop :)
 
 In order to verify the environment we will be working on during the workshop, I kindly ask you to make sure that you meet the tool requirements (*Requirements*).
 
-## Useful links during the workshop:
+## Useful links:
 
 - Notes:
   https://docs.google.com/document/d/1RqUe1DkDPB2K4awu-X7C8339D3F7fzcSs3kid5S84Uc/edit?usp=sharing
+  
+ - Tasks and Solutions:
+  https://drive.google.com/drive/folders/1J5BfGoqG_i0X7Z976NXarQoZ4pvntFDF?usp=sharing
 
 ## Requirements
 
