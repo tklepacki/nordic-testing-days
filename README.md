@@ -5,10 +5,13 @@ I am glad that you have chosen my workshop :)
 
 In order to verify the environment we will be working on during the workshop, I kindly ask you to make sure that you meet the tool requirements (*Requirements*).
 
-## Useful links during the workshop:
+## Useful links:
 
 - Notes:
   https://docs.google.com/document/d/1RqUe1DkDPB2K4awu-X7C8339D3F7fzcSs3kid5S84Uc/edit?usp=sharing
+  
+ - Tasks and Solutions:
+  https://drive.google.com/drive/folders/1J5BfGoqG_i0X7Z976NXarQoZ4pvntFDF?usp=sharing
 
 ## Requirements
 
@@ -49,6 +52,8 @@ Please bring your own computer Windows operating system. Unix machines are also 
 
 - Selenoid Installation Binary - https://github.com/aerokube/cm/releases 
   On Linux and Mac machines, add execution access to the downloaded binary: `chmod +x cm_linux_amd64` or `chmod +x ./cm_darwin_amd64`
+  
+- VNC Viewer https://www.realvnc.com/en/connect/download/viewer/
 
 - Latest versions of Chrome and FireFox browsers.
 
@@ -80,7 +85,16 @@ Please bring your own computer Windows operating system. Unix machines are also 
 - For Linux systems only - execute the following command:
   - `sudo groupadd docker`
   - `sudo usermod -aG docker $USER`
-- Restart your machine
+  - Restart your machine
+- Please pull the following Docker's images by executing the following commands:  
+  - `docker pull jenkins/jenkins:lts`  
+  - `docker pull selenium/hub`
+  - `docker pull selenium/node-chrome`
+  - `docker pull selenium/node-firefox`
+  - `docker pull selenoid/firefox:113.0`
+  - `docker pull selenoid/chrome:113.0`
+  - `docker pull aerokube/selenoid-ui`
+  - `docker pull aerokube/selenoid` 
 
 ### Docker Compose
 
