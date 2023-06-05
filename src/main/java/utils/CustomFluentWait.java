@@ -46,13 +46,11 @@ public class CustomFluentWait {
 	}
 
 	public void clickElement(final WebElement element) {
-		waitForAccountIcon();
 		Wait.waitForOneSecond();
 		waitFactory.getCustomWait().until(expectedEvents.clickElement(element));
 	}
 
 	public void clickElement(final WebElement element, final Duration timeoutInSeconds) {
-		waitForAccountIcon();
 		Wait.waitForOneSecond();
 		waitFactory.getCustomWait(timeoutInSeconds).until(expectedEvents.clickElement(element));
 	}
@@ -62,7 +60,6 @@ public class CustomFluentWait {
 	}
 
 	private void waitForAccountIcon() {
-		String url = driver.getCurrentUrl();
 		String accountIconXpath = "Wrong url!";
 		accountIconXpath = "//div[@data-testid='account-info-logged-false' or @data-testid='account-info-logged-true']";
 
