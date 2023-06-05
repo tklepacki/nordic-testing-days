@@ -3,7 +3,7 @@ services:
   selenoid-firefox:
     image: selenoid/firefox:113.0
   selenoid-chrome:
-    image: selenoid/chrome:113.0
+    image: selenoid/chrome:114.0
   selenoid:
     image: "aerokube/selenoid"
     network_mode: bridge
