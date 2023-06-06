@@ -91,8 +91,8 @@ Please bring your own computer Windows operating system. Unix machines are also 
   - `docker pull selenium/hub`
   - `docker pull selenium/node-chrome`
   - `docker pull selenium/node-firefox`
-  - `docker pull selenoid/firefox:113.0`
-  - `docker pull selenoid/chrome:113.0`
+  - `docker pull selenoid/firefox:112.0`
+  - `docker pull selenoid/chrome:112.0`
   - `docker pull aerokube/selenoid-ui`
   - `docker pull aerokube/selenoid` 
 
