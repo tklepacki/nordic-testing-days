@@ -46,6 +46,6 @@ public class WebDriverCreator {
 
 	private static void setDefaultSettings(WebDriver driver) {
 		driver.manage().window().setSize(new Dimension(1920, 1024));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	}
 }
