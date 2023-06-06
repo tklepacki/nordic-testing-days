@@ -57,7 +57,7 @@ Please bring your own computer Windows operating system. Unix machines are also 
 
 - Latest versions of Chrome and FireFox browsers.
 
-**- IMPORTANT! If you do not have a GitHub account yet, please create one: https://github.com/join?source=header-home. After creating the account, go to https://forms.gle/q3DHGg2RLsN2c8247, provide the username, and submit the form.**
+## **- IMPORTANT! If you do not have a GitHub account yet, please create one: https://github.com/join?source=header-home. After creating the account, go to https://forms.gle/q3DHGg2RLsN2c8247, provide the username, and submit the form.**
 
 ## Environment verification
 
