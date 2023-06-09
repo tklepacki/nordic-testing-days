@@ -22,7 +22,7 @@ public class LoginTest {
 	private PageObjectManager manager;
 	private static final String URL = "http://reserved.com/pl/pl";
 
-	@Parameters
+	@Parameters("browser")
 	@BeforeMethod
 	public void setUp(String browser) {
 		driver = new WebDriverCreator().createDriver(browser);
