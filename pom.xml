@@ -16,12 +16,6 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M9</version>
 				<configuration>
@@ -29,6 +23,12 @@
 						<file>src/test/resources/chromeTestSuite.xml</file>
 						<file>src/test/resources/firefoxTestSuite.xml</file>
 					</suiteXmlFiles>
+					<properties>
+						<property>
+							<name>suitethreadpoolsize</name>
+							<value>2</value>
+						</property>
+					</properties>
 				</configuration>
 			</plugin>
 		</plugins>
