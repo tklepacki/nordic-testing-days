@@ -22,6 +22,7 @@ public class LoginTest {
 
 	@BeforeMethod
 	public void setUp() {
+		// test
 		driver = new WebDriverCreator().createDriver("chrome");
 		commonTestSteps = new CommonTestSteps(driver);
 		manager = new PageObjectManager(driver);
