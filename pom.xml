@@ -29,7 +29,6 @@
 						<file>src/test/resources/testsuitechrome.xml</file>
 						<file>src/test/resources/testsuitefirefox.xml</file>
 					</suiteXmlFiles>
-					<configuration>
 					<properties>
 						<name>suitethreadpoolsize</name>
 						<value>2</value>
