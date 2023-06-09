@@ -30,10 +30,10 @@
 						<file>src/test/resources/testsuitefirefox.xml</file>
 					</suiteXmlFiles>
 					<properties>
-						<propery>
+						<property>
 							<name>suitethreadpoolsize</name>
 							<value>2</value>
-						</propery>
+						</property>
 					</properties>
 				</configuration>
 			</plugin>
