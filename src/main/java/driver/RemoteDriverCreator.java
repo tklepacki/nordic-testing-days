@@ -2,26 +2,40 @@ package driver;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
-import java.net.URL;
+import java.net.URI;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class RemoteDriverCreator {
     public RemoteWebDriver createDriver(String browser) throws MalformedURLException {
         switch (browser) {
             case "firefox":
-                FirefoxOptions firefoxOptions = new FirefoxOptions();
-                RemoteWebDriver firefoxDriver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),
-                        firefoxOptions);
+                DesiredCapabilities firefoxCapabilities = new DesiredCapabilities();
+                firefoxCapabilities.setCapability("browserName", "firefox");
+                firefoxCapabilities.setCapability("browserVersion", "112.0");
+                Map<String, Boolean> firefoxOptions = new HashMap<>();
+                firefoxOptions.put("enableVNC", true);
+                firefoxCapabilities.setCapability("selenoid:options", firefoxOptions);
+                RemoteWebDriver firefoxDriver = new RemoteWebDriver(
+                        URI.create("http://localhost:4444/wd/hub").toURL(),
+                        firefoxCapabilities);
                 setDefaultSettings(firefoxDriver);
                 return firefoxDriver;
             case "chrome":
-                ChromeOptions chromeOptions = new ChromeOptions();
-                RemoteWebDriver chromeDriver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
+                DesiredCapabilities chromeCapabilities = new DesiredCapabilities();
+                chromeCapabilities.setCapability("browserName", "chrome");
+                chromeCapabilities.setCapability("browserVersion", "112.0");
+                Map<String, Boolean> chromeOptions = new HashMap<>();
+                chromeOptions.put("enableVNC", true);
+                chromeCapabilities.setCapability("selenoid:options", chromeOptions);
+                RemoteWebDriver chromeDriver = new RemoteWebDriver(
+                        URI.create("http://localhost:4444/wd/hub").toURL(),
+                        chromeCapabilities);
                 setDefaultSettings(chromeDriver);
                 return chromeDriver;
             default:
