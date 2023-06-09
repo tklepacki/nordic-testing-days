@@ -2,6 +2,7 @@ package reserved.de;
 
 import static org.testng.AssertJUnit.assertEquals;
 
+import driver.RemoteDriverCreator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -14,6 +15,8 @@ import reserved.de.testdata.UserDataProvider;
 import commons.CommonTestSteps;
 import pages.PageObjectManager;
 
+import java.net.MalformedURLException;
+
 public class LoginTest {
 
 	private WebDriver driver;
@@ -21,10 +24,10 @@ public class LoginTest {
 	private PageObjectManager manager;
 	private static final String URL = "http://reserved.com/de/de";
 
+	@Parameters("browser")
 	@BeforeMethod
-	@Parameters({"browser"})
-	public void setUp(String browser) {
-		driver = new WebDriverCreator().createDriver(browser);
+	public void setUp(String browser) throws MalformedURLException {
+		driver = new RemoteDriverCreator().createDriver(browser);
 		commonTestSteps = new CommonTestSteps(driver);
 		manager = new PageObjectManager(driver);
 	}
