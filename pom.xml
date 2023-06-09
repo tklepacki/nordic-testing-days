@@ -26,7 +26,8 @@
 				<version>3.0.0-M9</version>
 				<configuration>
 					<suiteXmlFiles>
-						<file>src/test/resources/testsuite.xml</file>
+						<file>src/test/resources/chromeTestSuite.xml</file>
+						<file>src/test/resources/firefoxTestSuite.xml</file>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
