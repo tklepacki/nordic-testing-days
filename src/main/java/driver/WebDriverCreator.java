@@ -11,13 +11,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class WebDriverCreator {
 
 	private static String CHROMEDRIVER_PATH = "src/main/resources/seleniumdrivers/chromedrivers/chromedriver_linux64/chromedriver";
-	private static String GECKODRIVER_PATH = "src/main/resources/seleniumdrivers/firefoxdrivers/geckodriver-linux64/geckodriver";
+	private static String GECKODRIVER_PATH = "src/main/resources/seleniumdrivers/firefoxdrivers/geckodriver-win64/geckodriver.exe";
 
 	public WebDriver createDriver(String browser) {
 		switch (browser) {
 		case "firefox":
 			if (System.getProperty("os.name").contains("Windows")) {
-				GECKODRIVER_PATH = "C:/Users/dominykas.poskus/Downloads/nordic-testing-days-main/nordic-testing-days-main/nordic-testing-days/src/main/resources/seleniumdrivers/firefoxdrivers/geckodriver-win64/geckodriver.exe";
+				GECKODRIVER_PATH = "src/main/resources/seleniumdrivers/firefoxdrivers/geckodriver-win64/geckodriver.exe";
 			} else if (System.getProperty("os.name").contains("Mac")) {
 				GECKODRIVER_PATH = "src/main/resources/seleniumdrivers/firefoxdrivers/geckodriver-macos/geckodriver";
 			}
