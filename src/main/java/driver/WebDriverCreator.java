@@ -17,7 +17,7 @@ public class WebDriverCreator {
 		switch (browser) {
 		case "firefox":
 			if (System.getProperty("os.name").contains("Windows")) {
-				GECKODRIVER_PATH = "src/main/resources/seleniumdrivers/firefoxdrivers/geckodriver-win64/geckodriver.exe";
+				GECKODRIVER_PATH = "C:/Users/dominykas.poskus/Downloads/nordic-testing-days-main/nordic-testing-days-main/nordic-testing-days/src/main/resources/seleniumdrivers/firefoxdrivers/geckodriver-win64/geckodriver.exe";
 			} else if (System.getProperty("os.name").contains("Mac")) {
 				GECKODRIVER_PATH = "src/main/resources/seleniumdrivers/firefoxdrivers/geckodriver-macos/geckodriver";
 			}
