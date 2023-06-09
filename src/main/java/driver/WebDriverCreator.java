@@ -30,7 +30,7 @@ public class WebDriverCreator {
 			if (System.getProperty("os.name").contains("Windows")) {
 				CHROMEDRIVER_PATH = "src/main/resources/seleniumdrivers/chromedrivers/chromedriver_win32/chromedriver.exe";
 			} else if (System.getProperty("os.name").contains("Mac")) {
-				CHROMEDRIVER_PATH = "src/main/resources/seleniumdrivers/chromedrivers/chromedriver_mac64/chromedriver";
+				CHROMEDRIVER_PATH = "src/main/resources/seleniumdrivers/chromedrivers/chromedriver_mac_arm64/chromedriver";
 			}
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--no-sandbox");
