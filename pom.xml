@@ -26,9 +26,16 @@
 				<version>3.0.0-M9</version>
 				<configuration>
 					<suiteXmlFiles>
-						<file>src/test/resources/testsuite.xml</file>
+						<file>src/test/resources/testsuitechrome.xml</file>
+						<file>src/test/resources/testsuitefirefox.xml</file>
 					</suiteXmlFiles>
+					<configuration>
+					<properties>
+						<name>suitethreadpoolsize</name>
+						<value>2</value>
+					</properties>
 				</configuration>
+				
 			</plugin>
 		</plugins>
 	</build>

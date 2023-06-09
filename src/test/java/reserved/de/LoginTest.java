@@ -20,9 +20,10 @@ public class LoginTest {
 	private PageObjectManager manager;
 	private static final String URL = "http://reserved.com/de/de";
 
+	@Parameters("browser")
 	@BeforeMethod
-	public void setUp() {
-		driver = new WebDriverCreator().createDriver("firefox");
+	public void setUp(String browser) {
+		driver = new WebDriverCreator().createDriver(browser);
 		commonTestSteps = new CommonTestSteps(driver);
 		manager = new PageObjectManager(driver);
 	}
