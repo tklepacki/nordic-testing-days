@@ -1,5 +1,5 @@
 
-# Dear Participant,
+# Dear Participant
 
 I am glad that you have chosen my workshop :)
 
