@@ -38,7 +38,6 @@ public class LoginTest {
 		commonTestSteps.loadMainPage(URL);
 		driver.findElement(By.id("cookiebotDialogOkButton")).click();
 		commonTestSteps.loginProcess(email, password);
-
 		assertEquals(firstName, manager.getUserMenuPage().getAccountNameText(firstName));
 	}
 
@@ -46,5 +45,4 @@ public class LoginTest {
 	public void tearDown() {
 		driver.quit();
 	}
-
 }
