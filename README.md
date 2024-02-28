@@ -33,7 +33,7 @@ Unfortunately, due to the limited time of the workshop, there will be no time fo
 
 ### Tools
 
-Please bring your own computer Windows operating system. Unix machines are also fine, but not preferred. Please install:
+Please bring your own computer Windows operating system.  Unix machines are also fine, but not preferred. Please install:
 
 - IDE - preferably IntelliJ IDEA https://www.jetbrains.com/idea/ or Eclipse: https://www.eclipse.org/downloads/ If you choose Eclipse, please also install TestNG for Eclipse: https://marketplace.eclipse.org/content/testng-eclipse
 
