@@ -9,7 +9,7 @@ In order to verify the environment we will be working on during the workshop, I 
 
 ## Useful links:
 
-- Notes:
+- Notes: 
   https://docs.google.com/document/d/1RqUe1DkDPB2K4awu-X7C8339D3F7fzcSs3kid5S84Uc/edit?usp=sharing
   
  - Tasks and Solutions:
