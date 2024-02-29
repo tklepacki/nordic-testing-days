@@ -1,5 +1,6 @@
-package reserved.de;
+package reserved.pl;
 
+import static org.testng.Assert.assertTrue;
 import static org.testng.AssertJUnit.assertEquals;
 
 import driver.RemoteDriverCreator;
@@ -11,10 +12,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import driver.WebDriverCreator;
-import reserved.de.testdata.UserDataProvider;
+import reserved.pl.testdata.UserDataProvider;
 import commons.CommonTestSteps;
 import pages.PageObjectManager;
-
 import java.net.MalformedURLException;
 
 public class LoginTest {
@@ -22,7 +22,7 @@ public class LoginTest {
 	private WebDriver driver;
 	private CommonTestSteps commonTestSteps;
 	private PageObjectManager manager;
-	private static final String URL = "http://reserved.com/de/de";
+	private static final String URL = "http://reserved.com/pl/pl";
 
 	@Parameters("browser")
 	@BeforeMethod
