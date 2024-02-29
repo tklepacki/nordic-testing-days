@@ -15,7 +15,6 @@ import driver.WebDriverCreator;
 import reserved.pl.testdata.UserDataProvider;
 import commons.CommonTestSteps;
 import pages.PageObjectManager;
-
 import java.net.MalformedURLException;
 
 public class LoginTest {
