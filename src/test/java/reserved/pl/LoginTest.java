@@ -2,7 +2,6 @@ package reserved.pl;
 
 import static org.testng.Assert.assertTrue;
 import static org.testng.AssertJUnit.assertEquals;
-
 import driver.RemoteDriverCreator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
