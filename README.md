@@ -4,6 +4,7 @@
 
 I am glad that you have chosen my workshop :)
 
+
 In order to verify the environment we will be working on during the workshop, I kindly ask you to make sure that you meet the tool requirements (*Requirements*).
 
 - Presentation: https://drive.google.com/file/d/1wOwpEvnvuTmOwF6LoI0gsrSqqUgr-6Za/view?usp=drive_link
