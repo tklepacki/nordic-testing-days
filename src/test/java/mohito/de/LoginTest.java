@@ -37,6 +37,7 @@ public class LoginTest {
 	public void loginTest(String email, String password, String firstName) {
 
 		commonTestSteps.loadMainPage(URL);
+		
 		driver.findElement(By.id("cookiebotDialogOkButton")).click();
 		commonTestSteps.loginProcess(email, password);
 
