@@ -37,7 +37,7 @@ public class LoginTest {
 		commonTestSteps.loadMainPage(URL);
 		driver.findElement(By.id("cookiebotDialogOkButton")).click();
 		commonTestSteps.loginProcess(email, password);
-
+		// Down below there is an assertion
 		assertEquals(firstName, manager.getUserMenuPage().getAccountNameText(firstName));
 	}
 
