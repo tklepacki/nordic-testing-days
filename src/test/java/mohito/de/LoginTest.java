@@ -29,6 +29,7 @@ public class LoginTest {
 	public void setUp(String browser) throws MalformedURLException {
 		driver = new RemoteDriverCreator().createDriver(browser);
 		commonTestSteps = new CommonTestSteps(driver);
+		
 		manager = new PageObjectManager(driver);
 	}
 
