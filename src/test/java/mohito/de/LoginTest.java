@@ -14,7 +14,6 @@ import commons.CommonTestSteps;
 import pages.PageObjectManager;
 
 import java.net.MalformedURLException;
-
 import static org.testng.AssertJUnit.assertEquals;
 
 public class LoginTest {
